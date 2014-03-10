@@ -18,7 +18,8 @@ Property Drawer
 ### Tutorials
 
 * [자신 만의 PropertyDrawer를 만들자!](http://qiita.com/kyusyukeigo/items/8be4cdef97496a68a39d)
-* [Making Unity Work for You](http://angrytroglodyte.net/home/index.php/how-we-do-it/tech-blog/75-making-unity-work-for-you)* [Custom Data, an introduction to serialized classes and property drawers](http://catlikecoding.com/unity/tutorials/editor/custom-data/)
+* [Making Unity Work for You](http://angrytroglodyte.net/home/index.php/how-we-do-it/tech-blog/75-making-unity-work-for-you)
+* [Custom Data, an introduction to serialized classes and property drawers](http://catlikecoding.com/unity/tutorials/editor/custom-data/)
 * [Custom List, displaying data your way](http://catlikecoding.com/unity/tutorials/editor/custom-list/)
 
 * [Non trivial Property Drawers in Unity](http://gamenotgame.blogspot.kr/2013/12/non-trivial-property-drawers-in-unity.html)
@@ -31,7 +32,17 @@ Drag and Drop in the Editor
 * [Drag and Drop in the editor - Explanation](http://forum.unity3d.com/threads/223242-Drag-and-Drop-in-the-editor-Explanation)
 
 
+Custom Editor Plugins
+---------------------
+
+* [Reorderable List Editor Field for Unity](https://bitbucket.org/rotorz/reorderable-list-editor-field-for-unity) - List control for Unity allowing editor developers to add reorderable list controls to their GUIs.
+
+
+
 
 Tips
 ----
 
+
+* [유니티 게임 개발 소품, 쿨타임이 있는 쿨다운 스킬 버튼 만들기](http://hompy.info/660)
+* [Creating a Circular Progressbar / Timer](http://answers.unity3d.com/questions/14770/creating-a-circular-progressbar-timer.html)
