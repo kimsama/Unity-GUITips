@@ -11,3 +11,7 @@ Property Drawer
 * [Tooltip Property Drawer](http://forum.unity3d.com/threads/211461-Tooltips-Property-Drawer) on Unity's forum.
 * [Popup and IntRange property drawer](http://forum.unity3d.com/threads/150337-PropertyDrawers-for-easy-Inspector-customization/page2) on Unity's forum.
 
+
+Tips
+----
+
