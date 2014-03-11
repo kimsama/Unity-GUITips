@@ -46,3 +46,25 @@ Tips
 
 * [유니티 게임 개발 소품, 쿨타임이 있는 쿨다운 스킬 버튼 만들기](http://hompy.info/660)
 * [Creating a Circular Progressbar / Timer](http://answers.unity3d.com/questions/14770/creating-a-circular-progressbar-timer.html)
+
+
+### A generic class for UnityEditor.Editor class
+
+With deriving the given class for any Editor derived class, no need to type-casting of run-time type.
+
+	public class InspectorBase<T> : Editor where T : UnityEngine.Object
+	{
+	   protected T Target { get { return (T) target; } }
+	}
+
+
+Usage:
+
+	[CustomEditror(typeof(MyClass))]
+	public class MyClassInspector : InspectorBase<MyClass>
+	{
+		public overrided void OnInspectorGUI()
+		{
+
+		}
+	}
